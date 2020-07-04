@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    
+    
+    
+</head>
+<body>
+    <div class="header"> 
+
+    </div>
+    <script>
+        $(".header").load("./header.html")
+        $(() => {
+               
+    //这里动态加载所有分类中的li标签。并使用时间委托监听点击事件。
+    // console.log($(".ul1").children());
+    
+    })
+    </script>
+
+    <div class="content">
+    <div style="z-index: 3" class="pic"><a href=""><img src="./img/banner1.gif" alt=""></a></div>
+    <div style="z-index: 2" class="pic"><a href=""><img src="./img/banner2.jpg" alt=""></a></div>
+    <div style="z-index: 1" class="pic"><a href=""><img src="./img/banner3.jpg" alt=""></a></div>
+    <div class="circle">
+       
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    
+    </div>
+    
+    <div class="index_list">
+        <div style="height: 142px;margin: 0 auto; width: 1200px;">
+            <ul>
+                <li>
+                    <a href=""><img src="./img/index_list.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="./img/index_list.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="./img/index_list.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="./img/index_list.jpg" alt=""></a>
+                </li>
+                
+            </ul>
+        </div>
+        
+        <div class="indexlist">
+            
+        </div>
+        
+    </div>
+
+    <div style="height: 50px;"></div>
+    <div class="footer">
+        
+    </div>
+    <script>
+        $(".footer").load("./footer.html")
+        </script>
+</body>
+<script src="./js/index.js"></script>
+
+</html>

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: black;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+.login-top{
+    
+    margin: 0 auto;
+    width: 1200px;
+    height: 120px;
+}
+.top_left{
+    float: left;
+    line-height: 120px;
+}
+.top_right{
+    float: right;
+    line-height: 120px;
+}
+.li{
+    display: inline-block;
+    padding-left: 40px;
+
+    height: 120px;
+    line-height: 125px;
+    margin-left: 15px;
+}
+.icon1{
+    background: url(../img/login_icon1.png) no-repeat center left;
+        background-size: 35px;
+}
+.icon2{
+    background: url(../img/login_icon2.png) no-repeat center left;
+        background-size: 35px;
+}
+.icon3{
+    background: url(../img/login_icon3.png) no-repeat center left;
+        background-size: 35px;
+}
+
+
+
+.login-content{
+    height: 700px;
+    background: #FFD2FF;
+}
+.content_gy{
+    background: url(../img/login_bg.png) no-repeat -50px center;
+    height: 100%;
+    background-size: 50%;
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.table{
+    border-top: 0px solid #1d96d5;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    margin-top: -170px;
+    right: 165px;
+    background: #fff;
+    box-shadow: 0px 0px 20px #FF399C;
+    border-radius: 12px;
+}
+.table p{
+    width: 260px;
+}
+.table .zh input{
+    background: url(../img/login_icon4.png) no-repeat 5px center;
+    background-size: 20px;
+    text-indent: 30px;
+    outline: 2px #FF399C;
+    border: 1px solid #dedede;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    border-radius: 3px;
+}
+.table .mm input{
+    background: url(../img/login_icon5.png) no-repeat 5px center;
+    background-size: 20px;
+    text-indent: 30px;
+    border: 1px solid #dedede;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    border-radius: 3px;
+}
+.wjmm{font-size: 12px;}
+.wjmm:hover{
+    color: #FF399C;
+    
+}
+
+.loginbtn{
+    margin-bottom: 15px ;
+    display: block;
+    width: 260px;height: 40px;
+    background: #FF399C;
+    text-align: center;
+    line-height: 40px;
+    color: #fffefe; 
+    font-size: 16px;
+}
+.ljzc{
+    text-align: center;
+    color: #FF399C;
+   
+} 
+.login-bottom{
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 30px 0 60px;
+    
+}
+.lBp{
+    text-align: center;
+    font-size: 12px;
+    color: #9F9B9B;
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+
+}

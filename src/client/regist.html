@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/md5.js"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/captcha.js"></script>
+    <link rel="stylesheet" href="./css/regist.css">
+    <script src="./js/regist.js"></script>
+</head>
+<body>
+    <div>
+        <div class="reg-top">
+            <div class="regT">
+                <div class="logo"><a href=""><img src="./img/logo.png" alt=""></a><span>|     欢迎注册</span></div>
+                <div class="right"><span>已有账号</span><span><a href="./login/login.html">请登录</a></span></div>
+
+            </div>
+        </div>
+        <div class="reg-content">
+            <div class="regC">
+                <form action="">
+                    <div class="table">
+                        <div class="div1">
+                            <span><i>*</i> 用户名</span>
+                            <p><input type="username" name="username" id="username" placeholder="请输入4-16位字母,数字,汉字或下划线"/></p>
+                        </div>
+                        <div class="div1">
+                            <span><i>*</i> 手机号</span>
+                            <p><input type="userphone" name="userphone" id="userphone" placeholder="请输入手机号"/></p>
+                        </div>
+                        <div class="div1">
+                            <span><i>*</i> 设置密码</span>
+                            <p><input type="password" name="password" id="password" placeholder="支持数字、字母、符号、至少两个组合，6-20个字符"/></p>
+                        </div>
+                        <div class="div1">
+                            <span><i>*</i> 确认密码</span>
+                            <p><input type="password" name="repassword" id="repassword" placeholder="请再次输入密码"/></p>
+                        </div>
+                        <div class="div2">
+                            <span><i>*</i> 验证码</span>
+                     
+                                <input type="text" name="verify" id="verify" placeholder="请输入验证码" />
+                                <canvas  width="100" height="40" id="captcha1"></canvas>
+                          
+                            
+                                
+                        </div>
+                        <script> 
+                        var imgreg
+                        let captcha1 = new CaptchaMini();
+                            captcha1.draw(document.querySelector('#captcha1'), r => {
+                                imgreg= r
+                            });
+                            </script>
+                        <div class="div3">
+                            <label for="">
+                                <input type="checkbox">
+                                我已阅读并同意 《伊亲购用户注册协议》
+                            </label>
+                        </div>
+                        <div class="div4">
+                            <span></span>
+                            <p>立即注册</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="fooC">
+                <p class="p1">
+                    <a href="#">关于我们</a>
+                    <span>|</span>
+                    <a>网站地图</a>
+                    <span>|</span>
+                    <a href="#">法律声明</a>
+                    <span>|</span>
+                    <a href="#">版权声明</a>
+                </p>
+                <p class=" p2">
+                    <span>© 2005-2018 伊亲购 版权所有，并保留所有权利。 鲁ICP备15008092</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

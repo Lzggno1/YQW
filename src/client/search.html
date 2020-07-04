@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <script src="./js/search.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="header">
+
+    </div>
+    <script>
+        $(".header").load("./header.html")
+        $(() => {
+            //这里动态加载所有分类中的li标签。并使用时间委托监听点击事件。
+            // console.log($(".ul1").children());
+            $(".navBleft").mouseenter(function () {
+                console.log("11");
+                $(".navBlist").css("display", "block");
+                ;
+            });
+            $(".navBleft").mouseleave(function () {
+                $(".navBlist").css("display", "none");
+            });
+            $(".navBlist").mouseenter(() => {
+                $(".navBlist").css("dispaly", "block")
+            })
+            $(".navBlist").mouseleave(() => {
+                $(".navVlist").css("disPlay", "none")
+            })
+        })
+    </script>
+    <div class="indexlist">
+
+    </div>
+
+    </div>
+    <div class="list_address">
+        <div class="list_addressC">
+            <div class="aaa"><span>所有分类</span>
+                <i>&gt;</i>
+                <span style="color:red">全部</span>            <span>共 <b>47</b> 件商品</span></div>
+        </div>
+    </div>
+    <div class="list_tab">
+        <div class="list_tabC">
+            <div class="listType">
+                <div style="float: left;    margin-left: -374px;">
+                    <div class="Typeleft"><span>分类  ：</span></div>
+                    <div class="Typeright">
+                        <span >全部</span>
+    
+                        <span >奶粉</span>
+                        <span >奶瓶</span>
+                        <span >尿布</span>
+                        <span >保健品</span>
+                        
+                    </div></div>
+            </div>
+            <div class="brand">
+                <div style="float: left;">
+                <div class="brandleft"><span>品牌  ：</span></div>
+                <div class="brandright">
+                    <span>全部</span>
+                    <span>Hero Baby美素</span>
+                    <span>MeadJohnson美赞臣</span>
+                    <span>Similac雅培</span>
+                    <b class="btn_show">更多</b>
+                </div></div>
+            </div>
+            <div class="channel">
+
+            	<div class="item">
+                    <span >↑</span>
+                    &nbsp;
+                    <span >↓</span>
+                    <span>销量</span>
+                </div>
+            	<div class="item">
+            		<label>
+                    <input type="checkbox" id="bs" value="1">
+                    <span>保税直供</span>
+                    </label>
+                </div>
+            	<div class="item">
+            		<label>
+                    <input type="checkbox" id="gn" value="2">
+                    <span>国内发货</span>
+                    </label>
+                </div>
+                <div class="item">
+                	<label>
+                    <input type="checkbox" id="hw" value="3">
+                    <span>海外直邮</span>
+                    </label>
+                </div>
+               
+            </div>
+
+
+            <div class="tablelist">
+             
+                
+            </div>
+            <div class="clear"></div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div style="height: 50px;"></div>
+    <div class="footer">
+
+    </div>
+    <script>
+        $(".footer").load("./footer.html")
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+.clear:after{
+    content: "";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    display: block;
+    visibility: hidden;
+}
+.addressC{
+    height: 50px;
+    line-height: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+.addressC p {
+   position: absolute;
+}
+.goodsboxC{
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 0px 20px #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.goodLeft:first{
+    position: relative;
+    width: 400px;
+    height: 376.471px;
+    top: 11.7647px;
+    left: 0px;
+}
+.goodLeft .showimg img{
+    width: 400px;
+    height: 376px;
+    margin: 0 auto;
+}
+.goodLeft .imglist{
+    overflow: hidden;
+    height: 62px;
+    width: 345px;
+    position: relative;
+    left: 25px;
+    margin-top: 10px;
+}
+.goodLeft .imglist p {
+    position: absolute;
+    left: 31px;
+    top: 0px;
+    width: 276px;
+
+}
+.goodLeft .imglist  p span{
+    float: left;
+    margin-left: 7px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    position: relative;     
+    border: 1px solid #ddd;
+}
+.goodLeft .imglist  p span img{
+    width: 60px;
+    height: 60px;
+}
+.goodRight .title .span1{
+    float: left;
+    background: #65dbb5;
+    font-size: 12px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    color: #fff;
+    margin-right: 25px;
+}
+.goodRight .title .span2{
+    font-size: 20px;
+    text-align: left;
+    color: #010000;
+}
+.goodRight .p1 {
+    height: 25px;
+    line-height: 25px;
+    margin: 15px auto;
+    padding-left: 20px;
+}
+.goodRight .p1 .span1{
+    float: left;
+    font-size: 20px;
+    color: #000000;
+}
+.goodRight .p1 .span2{
+    float: left;
+    font-size: 32px;
+    color: #FF399C;
+    margin-right: 30px;
+}
+.goodRight .p2{
+    border: 1px dashed #FF399C;
+    width: 100%;
+    background: #fef7f5 url(../img/laba.png) no-repeat 5px center;
+    line-height: 35px;
+    font-size: 12px;
+    color: #FF399C;
+    background-size: 20px;
+    padding-left: 25px;
+}
+.goodRight .p3{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.goodRight .p3 i,
+.goodRight .p4 i{
+    float: left;
+    color: #999;
+    font-size: 12px;
+    line-height: 30px;
+    width: 60px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: left;
+}
+.goodRight .p3 span{
+    background: url(../img/gouxuan.png) no-repeat right bottom;
+    border: 1px solid #FF399C;
+    background-size: 15px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 15px;
+    color: #666666;
+    font-size: 12px;
+}
+.goodRight .p4{
+    line-height: 30px;
+    margin-top: 13px;
+    padding-left: 20px;
+}
+.goodRight  .p4 span{
+    color: #777;
+    
+}
+.goodRight  .a{
+    margin-bottom: 57px;
+}
+.goodRight .p5{
+    margin: 25px auto;
+    border-top: 1px solid #ccc;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.goodRight .p5 .price{
+    display: inline-block;
+    color: #FF399C;
+    font-size: 25px;
+}
+.goodRight .p5 .price1,
+.goodRight .p5 p{
+    display: inline-block;
+}
+.goodRight .p5 .price1 p{
+    width: 30px;
+    border: 1px solid black;
+    height: 29px;
+    text-align: center;
+    cursor: pointer;
+}
+.goodRight .p5 .goodsnum{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+
+
+
+.goodRight .p6 .span1{
+    display: inline-block;
+    width: 150px;
+    line-height: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: #FF399C;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.goodRight .p6 .span2{
+    display: inline-block;
+    width: 150px;
+    line-height: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: #fff;
+    border: 1px solid #FF399C;
+    text-align: center;
+    color: #FF399C;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.goodRight .p6 .span2:hover{
+    background: #FF399C;
+    color:#fff
+}
+
+.taballC{
+    background: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px #ccc;
+    margin-top: 50px;
+
+}
+.taballC .tabnav{
+    height: 40px;
+    border-bottom:1px solid #FF399C;
+}
+.taballC .tabnav span{
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    color: #040000;
+    font-size: 18px;
+    border-right: 1px solid #fff;
+    background: #FF399C;
+    color: #fff;
+}
+.taballC .tabimg{
+    padding: 20px 40px;
+}
+.taballC .tabimg img{
+    margin: 0 auto;
+}
+
+
+
+.big-img span{
+        position: absolute;
+        left: 0;top:0;
+    /*     background: rgba(200,200,200,0.6); */
+    background: orange ;
+}
+.bigger-img{
+    background: pink;
+    position: absolute;
+    top: 268px;left: 793px;
+}
+.bigger-img img{
+        width: 800px;
+        height: 750px;
+        position: absolute;
+        top: 0;left: 0;
+}
+

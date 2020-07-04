@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/cookie.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <script src="./js/cart.js"></script>
+</head>
+
+<body>
+    <div class="header">
+
+    </div>
+    <script>
+        $(".header").load("./header.html")
+        $(() => {
+            //这里动态加载所有分类中的li标签。并使用时间委托监听点击事件。
+            // console.log($(".ul1").children());
+            $(".navBleft").mouseenter(function () {
+                console.log("11");
+                $(".navBlist").css("display", "block");
+                ;
+            });
+            $(".navBleft").mouseleave(function () {
+                $(".navBlist").css("display", "none");
+            });
+            $(".navBlist").mouseenter(() => {
+                $(".navBlist").css("dispaly", "block")
+            })
+            $(".navBlist").mouseleave(() => {
+                $(".navVlist").css("disPlay", "none")
+            })
+        })
+    </script>
+
+    <div class="shoppingCart">
+        <div class="cartC">
+            <div class="cart1"><div style="position: relative;left: -800px;top: -20px;height: 59px;"></div></div>
+            <div class="carttitle">
+                <span class="span1"><input type="checkbox">全选</span>
+                <span class="span2">商品名称</span>
+                <span class="span3">商品编号</span>
+                <span class="span4">贸易方式</span>
+                <span class="span5">单价</span>
+                <span class="span6">数量</span>
+                <span class="span7">总金额</span>
+                <span class="span8">操作</span>
+            </div>
+            <div class="content">
+                <div class="list">
+                    <!-- <div class="good">
+                        <span class="span0">
+                            <label>
+    
+                                <input type="checkbox" value="396376" name="rec_id" data_price="836.00" data_number="1">
+    
+                            </label>
+                        </span>
+                        <span class="span_pic">
+                            <img src="http://www.yiqingo.cn//Public/uploads/Img/20200504/5eaf7c4da7add.jpg"
+                                style="cursor: pointer;" onclick="location.href='/goods/14954'">
+                        </span>
+                        <span class="span1">Karicare可瑞康羊奶粉3段 900g <br><b class="b1">规格：2桶</b>
+                            <br><b class="b2">效期：2022年03月-2022年03月</b>
+                        </span>
+                        <span class="span2">YXH10008409</span>
+                        <span class="span3">国内发货</span>
+                        <span class="span4">¥836.00</span>
+                        <span class="span5">1</span>
+                        <span class="span6"> ¥836.00 </span>
+                        <span class="span7 delelt_one" data_value="396376"><img src="http://www.yiqingo.cn/Public/web/images/icon_pic4.png" alt=""></span>
+                    </div> -->
+                </div>
+                <div class="contentB">
+                    <span class="span0">
+                        <label>
+                            <input type="checkbox" class="quanxuan">
+                            <b>全选</b>
+                        </label>
+                    </span>
+                    <span class = "span1">删除选中商品</span>
+                   
+                    <span class="span2">已选择 <b class="goods_count">0</b>件商品</span>
+                    <span class="span3"><i>合计：</i><i style=" font-size: 25px;font-weight: 500;color: #1d96d5 !important;">¥</i><b class="goods_total">0</b></span>
+                    <span class="span4 Settlement">结算</span>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        
+
+
+    <div style="height: 50px;"></div>
+    <div class="footer">
+
+    </div>
+    <script>
+        $(".footer").load("./footer.html")
+    </script>
+</body>
+
+</html>

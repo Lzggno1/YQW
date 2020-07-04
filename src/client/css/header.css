@@ -1,0 +1,143 @@
+.user,.welcome{
+    display: none;
+    
+}
+.navC{
+    margin: 0 auto;
+    width: 1200px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.cartbtn{
+    display: inline-block;
+    cursor: pointer;
+}
+.navLeft{
+    float: left;
+}
+.navLeft span{
+    margin-right: 10px;
+}
+.navLeft a:hover{
+    color:#FF399C
+}
+.navRight{
+    float: right;
+    
+}
+.search{
+    background: #fff;
+}
+.searchC{
+   
+    margin: 0 auto;
+    width: 1200px;
+    height: 114px;
+}
+.searchC .searchLeft{
+    float: left;
+}
+.searchC .searchLeft img{
+    padding: 20px 0 ;
+}
+
+.searchContent{
+    width: 560px;
+    float: left;
+    margin-left: 80px;
+}
+.contenttop{
+    margin: 0 auto;
+    
+    margin-top: 30px;
+}
+.contenttop div{
+    width: 480px;
+    border: 1px solid #FF399C;
+    border-left: 2px solid #FF399C;
+    height: 35px;
+    line-height: 35px;
+    box-sizing: border-box;
+}
+.searchContent .contenttop input{
+    float: left;
+    width: 392px;
+    display: block;
+    height:33px ;
+    line-height: 33px;
+    text-indent: 20px;
+    font-size: 12px;
+    outline: none;
+}
+.searchContent .contenttop span{
+    height: 33px;
+    width: 85px;
+    background: #FF399C;
+    text-align: center;
+    line-height: 33px;
+    float: right;
+    display: block;
+    cursor: pointer;
+}
+.searchContent .contenttop span img{
+
+    margin:5px auto;
+}
+
+
+.nav-bottom{
+    background: #FF399C;
+    font-size: 15px;
+    height: 44px;
+}
+.navB{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    
+}
+.navB a {
+    color: #fff;
+}
+.navBleft{
+    float: left;
+    
+}
+.navBleft a {
+    width: 190px;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    height: 45px;
+
+}
+.navBlist{
+    display: none;
+    z-index: 999;
+    top: 40px;
+    position: absolute;
+}
+.navBlist a {
+    width: 190px;
+    color: #666666;
+    height: 55px;
+    opacity: .9;
+    background: #f0f0f0 none repeat scroll 0 0;
+    border-bottom: 1px solid #dee0e2;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+}
+
+.navBright{
+    float: left;
+
+}
+.navul li{
+    line-height: 45px;
+    float: left;
+    display: block;
+    margin: 0 20px;
+}
+

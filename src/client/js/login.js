@@ -58,7 +58,7 @@ $(()=>{
                 }
                 document.cookie = "id="+data.data.user_id
                 /* (2) 跳转回列表页 */
-                location.href = "http://127.0.0.1/lin1/src/client/index.html";
+                location.href = "./index.html";
             } else {
                 alert("error:登录失败，账号密码错误")
                 
